@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lineae00" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativeLayout1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/information"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="TRANSACCIONES"
+                android:textColor="#888888"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/fuel4"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="12dp"
+                android:text="Nuevo Abastecimiento"
+                android:textColor="#444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="REPORTE DE TRANSACCIONES"
+                android:textColor="#888888"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/Button02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/cloud32"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:paddingLeft="12dp"
+                android:text="Enviados"
+                android:textColor="#444444"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/Button03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:text="No Enviados"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:drawableLeft="@drawable/cloud31"
+                android:drawablePadding="10dp"
+                android:paddingLeft="12dp"
+                android:textSize="14sp"
+                android:textColor="#444444" />
+
+            <Button
+                android:id="@+id/Button04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:text="Resumen Turno"
+                android:drawableLeft="@drawable/cloud189"
+                android:drawablePadding="10dp"
+                android:paddingLeft="12dp"
+                android:textSize="14sp"
+                android:textColor="#444444"  />
+            <Button
+                android:id="@+id/Button044"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:text="Cerrar Turno"
+                android:drawableLeft="@drawable/circular"
+                android:drawablePadding="10dp"
+                android:paddingLeft="12dp"
+                android:textSize="14sp"
+                android:textColor="#444444"  />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="OTROS"
+                android:textColor="#888888"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/Button05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:text="Forzar Enviar Pendientes"
+                android:drawableLeft="@drawable/telephone39"
+                android:drawablePadding="10dp"
+                android:paddingLeft="12dp"
+                android:textSize="14sp"
+                android:textColor="#444444" />
+
+            <Button
+                android:id="@+id/Button06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:text="Actualizar Base de Datos"
+                android:drawableLeft="@drawable/databases"
+                android:drawablePadding="10dp"
+                android:paddingLeft="12dp"
+                android:textSize="14sp"
+                android:textColor="#444444" />
+            <Button
+                android:id="@+id/Button07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical|center_horizontal|left"
+                android:text="Salir"
+                android:drawableLeft="@drawable/exit"
+                android:drawablePadding="10dp"
+                android:paddingLeft="12dp"
+                android:textSize="14sp"
+                android:textColor="#444444" />
+            </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#4072B4" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:text="Principal"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="#f5f5f5" >
+
+        <TextView
+            android:id="@+id/nombreUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/bust"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="nombre"
+            android:textColor="#777777"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/patente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="35dp"
+            android:drawableLeft="@drawable/delivery23"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textColor="#777777"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lineae00"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RelativeLayout01"
+        android:background="#EEEEEE"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>

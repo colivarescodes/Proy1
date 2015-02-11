@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PYC</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_inicioturno">Inicioturno</string>
+    <string name="title_activity_no_enviados">NoEnviados</string>
+    <string name="title_activity_cierre_turno">CierreTurno</string>
+
+</resources>

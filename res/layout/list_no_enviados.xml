@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:background="#f5f5f5" >
+
+        <TextView
+            android:id="@+id/equipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="EQUIPO"
+            android:textColor="#4072B4"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/equipo"
+            android:layout_alignBottom="@+id/equipo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="28/05/2014"
+            android:textColor="#444444"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/hora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/fecha"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="01:57"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/litros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/transaccion"
+            android:layout_alignRight="@+id/estado"
+            android:text="2.500"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/transaccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/receptor"
+            android:layout_below="@+id/receptor"
+            android:layout_marginTop="10dp"
+            android:text="TRANSACCION" />
+
+        <TextView
+            android:id="@+id/receptor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bomba"
+            android:layout_below="@+id/bomba"
+            android:layout_marginTop="10dp"
+            android:text="RECEPTOR"
+            android:textColor="#444444" />
+
+        <TextView
+            android:id="@+id/estado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/transaccion"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="PENDIENTE"
+            android:textColor="#D90000" />
+
+        <TextView
+            android:id="@+id/bomba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/equipo"
+            android:layout_alignTop="@+id/hora"
+            android:text="BOMBA"
+            android:textColor="#444444" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/receptor"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/transaccion"
+            android:text="1"
+            android:textColor="#888888" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/transaccion"
+            android:layout_alignLeft="@+id/textView1"
+            android:text="150GPM"
+            android:textColor="#888888" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/transaccion"
+            android:layout_alignLeft="@+id/textView2"
+            android:text="VENTA"
+            android:textColor="#888888" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
